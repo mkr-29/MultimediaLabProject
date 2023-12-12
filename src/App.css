@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montez&display=swap');
+
+
+.homebody{
+    overflow-x: hidden;
+}
+
+
+/* CUSTOM SCROLLBAR */
+
+::-webkit-scrollbar {
+    width: 14px;
+    background: #222222;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px grey; 
+    /* border-radius: 10px; */
+    background: #222222;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #A4945B; 
+    /* border-radius: 10px; */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #DCCA87; 
+  }
+
+
+.darkbg{
+    background-color: #222222;
+    background: #222222;
+    
+}
+
+
+
+.logoutbtn{
+    background-color: transparent;
+    color: #aeaeae;
+    border: none;
+    cursor: pointer;
+}
+
+.logoutbtn:hover{
+    background-color: transparent;
+    color: #DCCA87;
+    transition: ease-in-out 300ms;
+    border: none;
+    cursor: pointer;
+}
+
+.addresslink:hover{
+   text-decoration: none;
+}
+
+
+
+.togglemenu{
+    background-color: #DCCA87;
+    color: #DCCA87;
+}
+
+.montezfont{
+    font-family: 'Montez', cursive;
+}
+
+.outfitfont{
+    font-family: 'Outfit', sans-serif;
+}
+
+
+/* STYLING FOR SIGNIN AND SIGNUP */
+
+.loginbtn{
+    background-color: #A4945B;
+    color: #121212;
+    width: 100%;
+    padding: 6px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: ease-in-out 300ms;
+    
+
+}
+
+.loginbtn:hover{
+    text-decoration: none;
+    background-color: #DCCA87;
+    color: #222222;
+    border: 2px solid #DCCA87;
+    width: 100%;
+    padding: 6px;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: ease-in-out 300ms;
+}
+
+.primaryTextColor{
+    color: #DCCA87;
+}
+
+.linkhover{
+    color: #DCCA87;
+    text-decoration: none;
+}
+
+.linkhover:hover{
+    color : #aeaeae;
+    text-decoration: none;
+    
+    transition: ease 300ms;
+
+}
+
+.secondaryTextColor{
+    color : #222222
+}
+
+.darkTextColor{
+    background-color: #151515;
+}
+
+
+
+.inputfield{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid #DCCA87;
+    color: white;
+    
+}
+
+
+.arrowright:hover{
+    margin-left: 16px;
+    transition: ease 1000ms;
+
+}
+
+
+
+
+
+
+.tags{
+    
+
+    background: #222222;
+    color: #DCCA87;
+    border: 1px solid #DCCA87;
+
+    
+
+    border-radius: 50px;
+
+    fill: #DCCA87;
+    
+
+   
+    
+}
+
+.tags:hover{
+    background-color: #DCCA87;
+    color: hsl(0, 0%, 13%);
+    border: 1px solid transparent;
+    transition: ease-in-out 300ms;
+    text-decoration: none;
+    fill: #222222;
+}
+
+/* .icon{
+    fill: #DCCA87;
+}
+.icon:hover{
+    fill: #222222;
+} */
+
+
+
+
+.imghover:hover{
+    transform         : rotate(360deg) scale(1.2); 
+    transition: ease-in-out 600ms;
+
+}
+
+.cardhover:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 300ms;
+}
+
+.addtocart{
+    background-color: #000000;
+    color: white;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    width: 100%;
+}
+
+
+/* STYLING FOR ADMIN PAGE */
+
+.greyfontcolor{
+    color: #aeaeae;
+}
+
+.navlink{
+    color: #aeaeae;
+}
+
+.navlink:hover{
+    color: #DCCA87;
+    transition: ease-in-out 300ms;
+    text-decoration: none;
+}
+
+.lightfont{
+    font-weight: 200;
+}
+
+.blackbg{
+    background-color: #181818;
+}
+
+.iconsize{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
